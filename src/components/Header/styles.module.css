@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px #E9EDF3;
+    width: 1680px;
+    height: 64px;
+}
+
+.date {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 148%;
+    /* or 22px */
+    color: #899CB1;
+}
+
+.date::first-letter {
+    text-transform:capitalize;
+}
