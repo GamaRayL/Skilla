@@ -1,13 +1,16 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header {
     display: flex;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px #E9EDF3;
-    width: 1680px;
-    height: 64px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .date {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 148%;
@@ -17,4 +20,50 @@
 
 .date::first-letter {
     text-transform:capitalize;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.callAnalytics {
+    display: flex;
+}
+
+.card {
+    margin-right: 56px;
+    font-size: 14px;
+}
+
+.name {
+    margin-bottom: 7px;
+}
+
+.bar {
+    width: auto;
+    height: 6px;
+    border-radius: 12px;
+    background: #DEE6F5;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.image {
+    
+}
+
+.arrow {
+    margin-left: 4px;
 }
