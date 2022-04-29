@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Sidebar } from "./components/Sidebar";
 import css from "./styles.module.css";
-
 
 function App() {
   async function getData() {
@@ -19,7 +20,11 @@ function App() {
   getData();
   return (
     <div className={css.app}>
-      <Header />
+      <Sidebar />
+      <div className={css.container}>
+        <Header />
+        <Main />
+      </div>
     </div>
   );
 }
