@@ -20,6 +20,16 @@
     margin: 0 12px;
 }
 
+.iconAdd {
+    padding-top: 6px;
+    margin-left: 14px;
+}
+
+.iconAlert {
+    padding-top: 6px;
+    margin: 0 0 0 38px;
+}
+
 .point {
     margin-left: auto;
 }
@@ -38,4 +48,8 @@
     background-color: #005FF8;
     color: #ffffff;
     margin: 32px 18px;
+}
+
+.buttonTypography {
+    margin-left: 44px;
 }
