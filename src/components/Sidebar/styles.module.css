@@ -4,14 +4,25 @@
 }
 
 .logo {
-    margin: 19px 120px 32px 12px;
+    margin: 19px 120px 52px 12px;
+}
+
+.payText{
+    flex-grow: 1;
+}
+
+.boxContainer {
+    margin: 56px 20px 0 20px;
+}
+
+.itemContainer {
+    margin-bottom: 32px;
 }
 
 .item {
     height: 52px;
     width: 240px;
     display: flex;
-    align-items: center;
 }
 
 .icon {
@@ -28,10 +39,6 @@
 .iconAlert {
     padding-top: 6px;
     margin: 0 0 0 38px;
-}
-
-.point {
-    margin-left: auto;
 }
 
 .typography {

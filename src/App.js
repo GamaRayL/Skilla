@@ -5,7 +5,8 @@ import css from "./styles.module.css";
 
 function App() {
   async function getData() {
-    const URL = "https://api.skilla.ru/mango/getCallback?phone=222";
+    const URL =
+      "https://api.skilla.ru/partnership/getPersonsList?position=accountant&is_blocked=0";
 
     try {
       const res = await fetch(URL, {

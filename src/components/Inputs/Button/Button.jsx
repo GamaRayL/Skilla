@@ -1,20 +1,11 @@
-import "./styles.module.css";
+import "./button.css";
 
 const STYLES = [
   "btn--primary--contained",
   "btn--primary--outlined",
   "btn--primary--text",
-  "btn--warning--contained",
-  "btn--warning--outlined",
-  "btn--warning--text",
-  "btn--fine--contained",
-  "btn--fine--outlined",
-  "btn--fine--text",
-  "btn--success--contained",
-  "btn--success--outlined",
-  "btn--success--text",
 ];
-const SIZES = ["btn--medium", "btn--large"];
+const SIZES = ["btn--large", "btn--medium"];
 
 export const Button = ({
   children,
